@@ -1,0 +1,141 @@
+/*Global Settings*/
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+/*Header Settings*/
+
+header {
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    height: 3.13rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    z-index: 1;
+    margin-top: -10px;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    padding-left: 0.45rem;
+    display: inline-block;
+    margin-right: auto;
+}
+
+header ul {
+    list-style: none;
+    text-decoration: underline;
+    display: flex;
+}
+
+header ul li {
+    padding-right: 1rem;
+}
+
+a {
+    color: seashell;
+}
+
+
+/*Mission Section Settings*/
+
+#Mission {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;
+    height: 33rem;
+    max-width: 100rem;
+    top: 2.7rem;
+    display: flex;
+}
+
+.Title {
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Title h2 {
+    font-weight: bold;
+}
+
+.Title h4 {
+    font-weight: bold;
+}
+
+
+/*Featured Section Settings*/
+
+.Tea-Title {
+    margin: 0 auto;
+    padding-top: 3.13rem;
+}
+
+.Gallery {
+    display: flex;
+    padding-top: 0.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 45.45rem;
+    margin: auto;
+}
+
+.Gallery .image {
+    display: flex;
+    flex-direction: column;
+}
+
+.Gallery img {
+    height: 9.09rem;
+    width: 11.63rem;
+}
+
+
+/*Location Section Settings*/
+
+#Locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 2rem auto;
+    height: 22.7272rem;
+    max-width: 54.54rem;
+    padding-top: 3.13rem;
+}
+
+#Locations .Box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Locations .Locations-box {
+    border: 1px solid black;
+    width: 13rem;
+    background-color: black;
+    opacity: 1;
+}
+
+
+/*Footer Settings*/
+
+.Copyright {
+    text-align: left;
+}
